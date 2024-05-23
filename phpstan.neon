@@ -1,0 +1,13 @@
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: max
+    inferPrivatePropertyTypeFromConstructor: true
+    checkDynamicProperties: true
+    checkImplicitMixed: true
+    paths:
+        - .
+    excludePaths:
+        - vendor/*
+        - vendor-bin/*

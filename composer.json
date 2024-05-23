@@ -1,0 +1,53 @@
+{
+    "name": "baldwin/magento2-module-csp-shim",
+    "description": "Magento 2 module which replaces the default Magento CSP module and effectively disables its functionality",
+    "license": "MIT",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Pieter Hoste",
+            "email": "pieter@baldwin.be",
+            "role": "Problem Solver"
+        }
+    ],
+    "require": {
+        "php": "~8.2.0 || ~8.3.0",
+        "magento/framework": "^103.0.7",
+        "magento/module-csp": "100.4.6"
+    },
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.8",
+        "ergebnis/composer-normalize": "^2.42"
+    },
+    "replace": {
+        "magento/module-csp": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Magento\\Csp\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true,
+            "ergebnis/composer-normalize": true,
+            "magento/composer-dependency-version-audit-plugin": false
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "bamarni-bin": {
+            "bin-links": false,
+            "forward-command": true
+        }
+    }
+}

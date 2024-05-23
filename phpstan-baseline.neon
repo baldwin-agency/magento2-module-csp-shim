@@ -1,0 +1,76 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$dynamicAllowed\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$evalAllowed\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$eventHandlersAllowed\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$hashValues\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$hostSources\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$id\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$inlineAllowed\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$nonceValues\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$noneAllowed\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$schemeSources\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$selfAllowed\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Method Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy\\:\\:__construct\\(\\) has parameter \\$hashValues with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Method Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy\\:\\:__construct\\(\\) has parameter \\$hostSources with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Method Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy\\:\\:__construct\\(\\) has parameter \\$nonceValues with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
+
+		-
+			message: "#^Method Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy\\:\\:__construct\\(\\) has parameter \\$schemeSources with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Model/Policy/FetchPolicy.php
