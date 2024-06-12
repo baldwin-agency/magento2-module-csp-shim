@@ -19,6 +19,7 @@ This module comes bundled with the composer `replace` line to remove the Magento
 
 ## Watch out
 
+- **Do not install this module when you care about PCI DSS compliance!**
 - The module is currently declared compatible with specific versions of Magento only, it's hard to predict what will happen in the future, so we'll try to open up compatibility with more future Magento versions when they get released.
 
 ## Compatibility
