@@ -25,7 +25,7 @@ This module comes bundled with the composer `replace` line to remove the Magento
 ## Compatibility
 
 - This module should work with Magento 2.4.4-p9, 2.4.5-p8, 2.4.6-p6, 2.4.7 and 2.4.7-p1
-- The module should be compatible with PHP 74, 8.1, 8.2 and 8.3
+- The module should be compatible with PHP 7.4, 8.1, 8.2 and 8.3
 
 ## Installation
 
