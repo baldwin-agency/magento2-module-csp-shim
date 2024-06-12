@@ -1,6 +1,16 @@
 parameters:
 	ignoreErrors:
 		-
+			message: "#^Method Magento\\\\Csp\\\\Api\\\\CspAwareActionInterface\\:\\:modifyCsp\\(\\) has parameter \\$appliedPolicies with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Api/CspAwareActionInterface.php
+
+		-
+			message: "#^Method Magento\\\\Csp\\\\Api\\\\CspAwareActionInterface\\:\\:modifyCsp\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Api/CspAwareActionInterface.php
+
+		-
 			message: "#^Constructor of class Magento\\\\Csp\\\\Model\\\\Policy\\\\FetchPolicy has an unused parameter \\$dynamicAllowed\\.$#"
 			count: 1
 			path: Model/Policy/FetchPolicy.php
