@@ -11,16 +11,16 @@
         }
     ],
     "require": {
-        "php": "~8.2.0 || ~8.3.0",
-        "magento/framework": "^103.0.7",
-        "magento/module-csp": "100.4.6"
+        "php": "~7.4.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
+        "magento/framework": "103.0.4-p9 || 103.0.5-p8 || 103.0.6-p6 || 103.0.7 || 103.0.7-p1",
+        "magento/module-csp": "100.4.3-p9 || 100.4.4-p8 || 100.4.5-p6 || 100.4.6"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.8",
         "ergebnis/composer-normalize": "^2.42"
     },
     "replace": {
-        "magento/module-csp": "*"
+        "magento/module-csp": "100.4.3-p9 || 100.4.4-p8 || 100.4.5-p6 || 100.4.6"
     },
     "repositories": [
         {

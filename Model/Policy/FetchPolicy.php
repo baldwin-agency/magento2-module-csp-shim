@@ -17,7 +17,7 @@ class FetchPolicy
         array $nonceValues = [],
         array $hashValues = [],
         bool $dynamicAllowed = false,
-        bool $eventHandlersAllowed = false,
+        bool $eventHandlersAllowed = false
     ) {
         // do nothing
     }

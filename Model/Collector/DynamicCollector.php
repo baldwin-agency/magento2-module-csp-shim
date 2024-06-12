@@ -6,7 +6,10 @@ namespace Magento\Csp\Model\Collector;
 
 class DynamicCollector
 {
-    public function add(mixed $policy): void
+    /**
+     * @param mixed $policy
+     */
+    public function add($policy): void
     {
         // do nothing
     }
