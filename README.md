@@ -19,10 +19,11 @@ This module comes bundled with the composer `replace` line to remove the Magento
 
 ## Alternatives
 
-This module might not be the best solution out there, here are some alterntives we can recommend. Pick whatever one you like best:
+This module might not be the best solution out there (3rd party modules might try to use classes which we don't provide in this module), so here are some alterntives we can also recommend that don't remove the CSP module but disable its output. Pick whatever one you like best:
 
-- [https://github.com/yireo/Yireo_DisableCsp](https://github.com/yireo/Yireo_DisableCsp) - it keeps the Magento CSP module installed and uses plugins to disable the CSP output
-- [https://github.com/weiweiouyang/magento2-module-disable-csp](https://github.com/weiweiouyang/magento2-module-disable-csp) - it keeps the Magento CSP module installed and disables some events the CPS module hooks into
+- [https://github.com/yireo/Yireo_DisableCsp](https://github.com/yireo/Yireo_DisableCsp) - it uses preferences to disable the CSP output
+- [https://github.com/weiweiouyang/magento2-module-disable-csp](https://github.com/weiweiouyang/magento2-module-disable-csp) - it disables some event observers
+- [https://github.com/outeredge/magento-disable-csp](https://github.com/outeredge/magento-disable-csp) - it uses plugins to disable the CSP output
 - ...
 
 ## Watch out
