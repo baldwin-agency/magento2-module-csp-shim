@@ -86,16 +86,16 @@
         },
         {
             "name": "magento/magento-coding-standard",
-            "version": "34",
+            "version": "35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-coding-standard.git",
-                "reference": "e0f31fa473868b5db8c00994efb99e6efbb6c840"
+                "reference": "f5cf74fb1cdd7e9fc16b2b0a31c5a5336539505e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-coding-standard/zipball/e0f31fa473868b5db8c00994efb99e6efbb6c840",
-                "reference": "e0f31fa473868b5db8c00994efb99e6efbb6c840",
+                "url": "https://api.github.com/repos/magento/magento-coding-standard/zipball/f5cf74fb1cdd7e9fc16b2b0a31c5a5336539505e",
+                "reference": "f5cf74fb1cdd7e9fc16b2b0a31c5a5336539505e",
                 "shasum": ""
             },
             "require": {
@@ -130,9 +130,9 @@
             "description": "A set of Magento specific PHP CodeSniffer rules.",
             "support": {
                 "issues": "https://github.com/magento/magento-coding-standard/issues",
-                "source": "https://github.com/magento/magento-coding-standard/tree/v34"
+                "source": "https://github.com/magento/magento-coding-standard/tree/v35"
             },
-            "time": "2024-09-06T17:21:26+00:00"
+            "time": "2024-10-08T16:38:49+00:00"
         },
         {
             "name": "magento/php-compatibility-fork",
@@ -293,16 +293,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.6",
+            "version": "1.12.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "dc4d2f145a88ea7141ae698effd64d9df46527ae"
+                "reference": "dc2b9976bd8b0f84ec9b0e50cc35378551de7af0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc4d2f145a88ea7141ae698effd64d9df46527ae",
-                "reference": "dc4d2f145a88ea7141ae698effd64d9df46527ae",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc2b9976bd8b0f84ec9b0e50cc35378551de7af0",
+                "reference": "dc2b9976bd8b0f84ec9b0e50cc35378551de7af0",
                 "shasum": ""
             },
             "require": {
@@ -347,20 +347,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-06T15:03:59+00:00"
+            "time": "2024-10-18T11:12:07+00:00"
         },
         {
             "name": "rector/rector",
-            "version": "1.2.6",
+            "version": "1.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "6ca85da28159dbd3bb36211c5104b7bc91278e99"
+                "reference": "7923bd5e48f8c26a922df91f7174f5bca2b3671d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/6ca85da28159dbd3bb36211c5104b7bc91278e99",
-                "reference": "6ca85da28159dbd3bb36211c5104b7bc91278e99",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/7923bd5e48f8c26a922df91f7174f5bca2b3671d",
+                "reference": "7923bd5e48f8c26a922df91f7174f5bca2b3671d",
                 "shasum": ""
             },
             "require": {
@@ -398,7 +398,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/1.2.6"
+                "source": "https://github.com/rectorphp/rector/tree/1.2.9"
             },
             "funding": [
                 {
@@ -406,7 +406,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-03T08:56:44+00:00"
+            "time": "2024-11-04T18:26:57+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -490,16 +490,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.14.2",
+            "version": "v15.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "3bc2778fa16a8a127767240ca91ef51236cb0f58"
+                "reference": "bd620384497500ecfdf44313dd98ecb95fb88975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/3bc2778fa16a8a127767240ca91ef51236cb0f58",
-                "reference": "3bc2778fa16a8a127767240ca91ef51236cb0f58",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/bd620384497500ecfdf44313dd98ecb95fb88975",
+                "reference": "bd620384497500ecfdf44313dd98ecb95fb88975",
                 "shasum": ""
             },
             "require": {
@@ -517,7 +517,7 @@
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "1.12.6",
+                "phpstan/phpstan": "1.12.7",
                 "phpstan/phpstan-phpunit": "1.4.0",
                 "phpstan/phpstan-strict-rules": "1.6.1",
                 "phpunit/phpunit": "^9.5 || ^10.5.21 || ^11",
@@ -552,7 +552,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.14.2"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.18.0"
             },
             "funding": [
                 {
@@ -560,7 +560,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-10-08T08:43:03+00:00"
+            "time": "2024-10-31T12:10:43+00:00"
         }
     ],
     "packages-dev": [],
