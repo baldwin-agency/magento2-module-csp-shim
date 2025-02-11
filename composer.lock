@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06f0019875c0fadab65b226aa8747d12",
+    "content-hash": "10970de8b8f39d73a5eaf3273dccfc46",
     "packages": [
         {
             "name": "brick/math",
@@ -2568,11 +2568,11 @@
         },
         {
             "name": "magento/framework",
-            "version": "103.0.7-p3",
+            "version": "103.0.7-p4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/framework/magento-framework-103.0.7.0-patch3.zip",
-                "shasum": "2010abd9474437d9e1f27515450fe1abebe74227"
+                "url": "https://repo.magento.com/archives/magento/framework/magento-framework-103.0.7.0-patch4.zip",
+                "shasum": "92cbed8967e9de164f1467d7b2a63e37c5548b66"
             },
             "require": {
                 "colinmollenhour/php-redis-session-abstract": "~1.5.3",
