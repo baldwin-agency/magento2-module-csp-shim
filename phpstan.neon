@@ -6,6 +6,7 @@ parameters:
     inferPrivatePropertyTypeFromConstructor: true
     checkDynamicProperties: true
     checkImplicitMixed: true
+    treatPhpDocTypesAsCertain: false
     paths:
         - .
     excludePaths:
