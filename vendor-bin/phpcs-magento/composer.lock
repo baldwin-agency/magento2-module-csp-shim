@@ -104,16 +104,16 @@
         },
         {
             "name": "magento/magento-coding-standard",
-            "version": "39",
+            "version": "40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-coding-standard.git",
-                "reference": "f24dd98f46a98cd7081e4648b19299c27db35264"
+                "reference": "808617f36009f0c9d6ca867c3d7322fdd0924186"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-coding-standard/zipball/f24dd98f46a98cd7081e4648b19299c27db35264",
-                "reference": "f24dd98f46a98cd7081e4648b19299c27db35264",
+                "url": "https://api.github.com/repos/magento/magento-coding-standard/zipball/808617f36009f0c9d6ca867c3d7322fdd0924186",
+                "reference": "808617f36009f0c9d6ca867c3d7322fdd0924186",
                 "shasum": ""
             },
             "require": {
@@ -122,7 +122,7 @@
                 "magento/php-compatibility-fork": "^0.1",
                 "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
                 "phpcsstandards/phpcsutils": "^1.2.2",
-                "rector/rector": "^1.2.4",
+                "rector/rector": "^1.2.4 || ^2.0.0",
                 "squizlabs/php_codesniffer": "^3.10.2",
                 "webonyx/graphql-php": "^15.0"
             },
@@ -148,9 +148,9 @@
             "description": "A set of Magento specific PHP CodeSniffer rules.",
             "support": {
                 "issues": "https://github.com/magento/magento-coding-standard/issues",
-                "source": "https://github.com/magento/magento-coding-standard/tree/v39"
+                "source": "https://github.com/magento/magento-coding-standard/tree/v40"
             },
-            "time": "2025-12-19T18:38:54+00:00"
+            "time": "2026-03-06T05:38:38+00:00"
         },
         {
             "name": "magento/php-compatibility-fork",
@@ -316,15 +316,15 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.32",
+            "version": "2.1.40",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2770dcdf5078d0b0d53f94317e06affe88419aa8",
-                "reference": "2770dcdf5078d0b0d53f94317e06affe88419aa8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9b2c7aeb83a75d8680ea5e7c9b7fca88052b766b",
+                "reference": "9b2c7aeb83a75d8680ea5e7c9b7fca88052b766b",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0"
+                "php": "^7.4|^8.0"
             },
             "conflict": {
                 "phpstan/phpstan-shim": "*"
@@ -365,25 +365,25 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-30T10:16:31+00:00"
+            "time": "2026-02-23T15:04:35+00:00"
         },
         {
             "name": "rector/rector",
-            "version": "1.2.10",
+            "version": "2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "40f9cf38c05296bd32f444121336a521a293fa61"
+                "reference": "bbd37aedd8df749916cffa2a947cfc4714d1ba2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/40f9cf38c05296bd32f444121336a521a293fa61",
-                "reference": "40f9cf38c05296bd32f444121336a521a293fa61",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/bbd37aedd8df749916cffa2a947cfc4714d1ba2c",
+                "reference": "bbd37aedd8df749916cffa2a947cfc4714d1ba2c",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0",
-                "phpstan/phpstan": "^1.12.5"
+                "php": "^7.4|^8.0",
+                "phpstan/phpstan": "^2.1.38"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -408,6 +408,7 @@
                 "MIT"
             ],
             "description": "Instant Upgrade and Automated Refactoring of any PHP code",
+            "homepage": "https://getrector.com/",
             "keywords": [
                 "automation",
                 "dev",
@@ -416,7 +417,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/1.2.10"
+                "source": "https://github.com/rectorphp/rector/tree/2.3.8"
             },
             "funding": [
                 {
@@ -424,7 +425,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-08T13:59:10+00:00"
+            "time": "2026-02-22T09:45:50+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
